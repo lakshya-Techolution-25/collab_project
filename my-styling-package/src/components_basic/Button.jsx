@@ -1,5 +1,4 @@
 // src/components/Button.jsx
-import React from 'react';
 import clsx from 'clsx';
 
 const Button = ({ children, variant = 'primary', className, ...props }) => {
