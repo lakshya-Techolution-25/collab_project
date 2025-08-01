@@ -8,6 +8,7 @@ const Button = ({ children, variant = 'primary', className, ...props }) => {
     secondary: 'bg-purple-600 hover:bg-purple-700',
   };
 
+  console.log('Button component rendered with variant:', variant);
   return (
     <button
       className={clsx(baseStyles, variants[variant], className)}
